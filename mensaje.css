@@ -1,0 +1,75 @@
+body {
+	background-color: lightgrey;
+	padding: 40px;
+}
+
+/*encabezado*/
+header {
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 59px;
+}
+
+/*menu*/
+.menu {
+	float: right;
+	font-family: Courier New;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	text-transform: uppercase;
+	padding-right: 14px;
+	
+  }
+
+ #titulos{
+	font-family: "Permanent Marker", bebas neue;
+	font-size: 120px;
+	text-align: center;
+	margin-top: 68px;
+	color:  #FAEF92;
+}
+
+.bloqueGrid {
+	display: grid;
+	background-color: ghostwhite;
+	margin: 5px 50px 10px 50px;
+	grid-column: auto;
+	grid-column-gap: ;
+	
+}
+
+.contenido {
+	box-sizing: border-box;
+}
+
+.mensaje {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 80px;
+	color: slategrey;
+}
+
+#footer {
+    background-color: dimgrey;
+    font-family: Corbel,Courier New;
+    color: ghostwhite;
+    padding-top: 50px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+ @media screen and (max-width:400px){
+	.galeria{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+
+	.close{
+		top: 20px;
+		right: 20px;
+	}
+}

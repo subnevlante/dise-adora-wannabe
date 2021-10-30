@@ -1,0 +1,143 @@
+body {
+	background-color: lightgrey;
+	padding: 40px;
+}
+
+/*encabezado*/
+header {
+	background-color: black;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 59px;
+}
+
+/*menu*/
+.menu {
+	float: right;
+	font-family: Courier New;
+	text-decoration: none;
+	list-style: none;
+	outline: none;
+	text-transform: uppercase;
+	padding-right: 14px;
+	
+  }
+
+ #titulos{
+	font-family: "Permanent Marker", bebas neue;
+	font-size: 120px;
+	text-align: center;
+	margin-top: 68px;
+	color:  #FAEF92;
+}
+
+.bloqueGrid {
+	display: grid;
+	background-color: ghostwhite;
+	margin: 5px 50px 10px 50px;
+	grid-column: auto;
+	grid-column-gap: ;
+	
+}
+
+#blogParrafo {
+	font-size: 18px;
+	font-family: "Montserrat", Corbel;
+	text-align: left;
+	margin-right: 80px;
+	margin-left: 80px;
+}
+
+.contenido {
+	box-sizing: border-box;
+}
+.contactoContenido {
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1.5em;
+}
+
+.contactoForma {
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 1.0);
+	background: lightgrey;
+}
+
+.contactoForma > * {
+	padding: 1em;
+}
+
+.contactoForma form {
+	margin: 0;
+	padding: 1em;
+	margin-right: 15px;
+}
+
+.contactoForma form input,
+.contactoForma form textarea {
+	width: 100%;
+	padding: 0.7em;
+	border: none;
+	background: whitesmoke;
+	outline: 0;
+	border-bottom: 1px, solid;
+}
+ .contactoForma form button {
+ 	background: #FAEF92;
+ 	border: 0;
+ 	outline: 0;
+ 	padding: 1em;
+ 	width: 50%;
+ 	font-family: Corbel;
+ 	font-size: 18px;
+ }
+
+ .contactoForma form button:hover,
+ .contactoForma form button:focus {
+ 	background: #FAEF92;
+ 	color: lightgrey;
+ 	transition: background-color 1s ease-out;
+ 	outline: 0;
+ }
+
+.contactoInfo {
+	background-color: dimgrey;
+}
+
+.contactoInfo h4,
+.contactoInfo ul,
+.contactoInfo p {
+	text-align: center;
+	margin: 0, 0, 1rem, 0;
+	list-style: none;
+	padding: 0;
+	color: whitesmoke;
+}
+ .contactoInfo ul li {
+ 	padding: 0.3em;
+
+}
+
+#footer {
+    background-color: dimgrey;
+    font-family: Corbel,Courier New;
+    color: ghostwhite;
+    padding-top: 50px;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+ @media screen and (max-width:400px){
+	.galeria{
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	}
+
+	.close{
+		top: 20px;
+		right: 20px;
+	}
+}

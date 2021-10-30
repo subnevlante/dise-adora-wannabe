@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+	<title>Contacto</title>
+	<link rel="stylesheet" type="text/css" href="contacto.css">
+	<script src="https://kit.fontawesome.com/8aac00edda.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Permanent+Marker#standard-styles">
+	<link rel="stylesheet" href="https://fonts.google.com/specimen/Montserrat#standard-styles">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+	<header>
+		<style type="text/css">
+			li {
+				color: ghostwhite;
+			}
+			a:link{
+				color: #DED5D4;
+				text-decoration: none;
+			}
+
+			a:visited{
+				color: ;
+			}
+
+			a:hover{
+				color: #FAEF92;
+				text-decoration: none;
+			}
+
+			a:active{
+				color: ghostwhite;
+				text-decoration: none;
+			}
+
+		</style>
+		 <nav class="menu">
+		  	 <ul class="nav navbar-nav">
+      			<a class="nav-link" href="index.html">Inicio</a>
+      			<a class="nav-link" href="blog.html">Blog</a>
+      			<a class="nav-link" href="portafolio.html">Portafolio</a>
+      			<a class="nav-link" href="contacto.html">Contacto</a>
+ 			 </ul>
+		  </nav>
+	</header>
+</head>
+<body>
+	<h1 id="titulos" class="animate__animated animate__fadeInUp">Contacto</h1>
+	<section class="bloqueGrid"  id="blogParrafo">
+		<div class="contenido">
+			<div class="contactoContenido">
+				<div class="contactoForma">
+					<h3>Contactenos</h3>
+					<form action="enviar.php" method="post">
+						<p>
+							<label for="fullname">Nombre</label>
+							<input type="text" name="fullname" id="fullname">
+						</p>
+						<p>
+							<label>Correo</label>
+							<input type="email" name="email">
+						</p>
+						<p>
+							<label>Telefono</label>
+							<input type="tel" name="phone">
+						</p>
+						<p>
+							<label>Mensaje</label>
+							<textarea name="message" rows="5"></textarea>
+						</p>
+						<p>
+							<button type="submit" class="btn btn-primary">
+								Enviar
+							</button>
+						</p>
+					</form>
+					<div class="contactoInfo">
+					<h4>mas informacion</h4>
+					<ul>
+						<li><i class="fas fa-map-marker-alt"></i>  Direccion</li>
+						<li><i class="fas fa-mobile-alt"></i>  333 333 33 33</li>
+						<li><i class="fas fa-at"></i>  correoelectronico@email.com</li>
+					</ul>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,sed do eiusmod tempor incididunt labore et dolore magna aliqua</p>
+					<p>pagina.com</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<div id="footer">
+            <div>
+                <h2>Diseñadora Wannabe</h2>
+                <p>Este es un prototipo para un futuro proyecto</p>
+                <p>
+                	<a href=""><i class="fab fa-facebook"></i></a>
+                	<a href=""><i class="fab fa-instagram"></i></a>
+                	<a href=""><i class="fab fa-whatsapp"></i></a>
+                </p>
+            </div>       
+    </div>
+</body>
+</html>
